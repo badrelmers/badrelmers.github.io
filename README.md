@@ -1,2 +1,2 @@
-# Cypress IFrame and shadow dom Example
+# IFrame and shadow dom Example
 
