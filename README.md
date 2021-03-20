@@ -17,3 +17,8 @@ document.querySelectorAll('iframe')[1].contentWindow.document.querySelector("#sh
 # How to see ALL events of a page in Chrome Developer Tools?
 Simply run monitorEvents(object [, events]) in your console, e.g. monitorEvents(document.body, "dragenter") or for all events monitorEvents(document.body).
 To stop it run unmonitorEvents(document.body).
+
+
+
+there nice exammples here too:
+http://csreis.github.io/tests/
