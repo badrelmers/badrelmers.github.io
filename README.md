@@ -20,5 +20,5 @@ To stop it run unmonitorEvents(document.body).
 
 
 
-there nice exammples here too:
+more examples here:
 http://csreis.github.io/tests/
