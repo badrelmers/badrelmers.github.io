@@ -3,16 +3,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Test Iframe</title>
+    <title>Test Iframe/shadow dom</title>
   </head>
 
   <body>
+    <h1>my tests</h1>
+    <button type="button">Click Meee</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me with alertttt</button>
+    
     <h1>iframe inside a shadow dom example</h1>
     <div id="containerrr"></div>
     <h1>DOM element</h1>
     <script src="scriptshadow.js"></script>
     
-    <h1>Test Iframe</h1>
+    <h1>Test1 Iframe</h1>
     
     <!-- to test CORS upload iframebadr.html to another server and replace src with this 
     src="https://conference.anassys.com/iframebadr.html"
@@ -26,7 +30,7 @@
     ></iframe>
     
     
-    <h1>Test shadow inside Iframe</h1>
+    <h1>Test2 shadow inside Iframe</h1>
     
     <!-- to test CORS upload iframeshadow.html and scriptshadowiniframe.js to another server and replace src with this 
     src="https://conference.anassys.com/iframeshadow.html"
