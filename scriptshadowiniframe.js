@@ -7,6 +7,13 @@ h1.textContent = "Inside Shadow DOM"
 h1.id = "inside"
 root.appendChild( h1 )
 
+  //example 2 button inside shadow
+var buttonnn = document.createElement( "button" )
+buttonnn.textContent = "Inside Shadow DOM"
+buttonnn.id = "inside"
+root.appendChild( buttonnn )
+  
+  
 //Access inside element
 console.log( shadowwcontainer.shadowRoot.querySelector( "#inside" ) )
 })()
