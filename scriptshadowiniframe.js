@@ -9,8 +9,8 @@ root.appendChild( h1 )
 
   //example 2 button inside shadow
 var buttonnn = document.createElement( "button" )
-buttonnn.textContent = "Inside Shadow DOM"
-buttonnn.id = "inside"
+buttonnn.textContent = "buttonnn Inside Shadow DOM"
+buttonnn.id = "Butonnninside"
 root.appendChild( buttonnn )
   
   
