@@ -5,6 +5,7 @@ document.querySelector('#containerrr').shadowRoot.querySelector('h1').getBoundin
 ```
 
 ### select h1 inside the shadow inside the second iframe
+
 you can use querySelectorAll to get all the iframes:
 const iframes = document.querySelectorAll('iframe');
 It will return you an array. Then you can choose which one you need:
@@ -12,6 +13,10 @@ iframes[0]
 
 ```javascript
 document.querySelectorAll('iframe')[1].contentWindow.document.querySelector("#shadowwcontainer").shadowRoot.querySelector('h1').getBoundingClientRect()
+```
+### select button inside the shadow inside the second iframe
+```javascript
+document.querySelectorAll('iframe')[1].contentWindow.document.querySelector("#shadowwcontainer").shadowRoot.querySelector("#Butonnn22inside")
 ```
 
 # How to see ALL events of a page in Chrome Developer Tools?
